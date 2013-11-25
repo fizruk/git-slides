@@ -142,7 +142,22 @@
       \item ссылка, активная на текущий момент, имеет синоним {\it HEAD}.
     \end{itemize}
   \end{block}
+\end{frame}
 
+\begin{frame}
+  \frametitle{Создание репозитория}
+  При создании репозитория, Git создаёт служебную директорию \texttt{.git/}
+  в корне проекта:
+  \begin{figure}
+     \includegraphics[width=10cm]{images/git-init.png}
+  \end{figure}
+
+  Команда \texttt{git add} регистрирует изменения, которые попадут в очередной коммит.
+  Команда \texttt{git commit} создаёт коммит.
+
+  \begin{figure}
+     \includegraphics[width=10cm]{images/git-add-commit.png}
+  \end{figure}
 \end{frame}
 
 \section{Git: основные операции}
