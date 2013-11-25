@@ -33,14 +33,18 @@
 
 \begin{frame}
   \frametitle{Системы контроля версий}
+
   Системы контроля версий позволяют отслеживать изменения в коде, документах и пр.
 
-  {\it Централизованные системы} используют один сервер для хранения документов и истории.
-  Таким образом организуется централизованный контроль над хранилищем.
+  \begin{block}{Централизованные системы}
+  Единый сервер для хранения документов и истории.
+  Централизованный контроль над хранилищем.
+  \end{block}
 
-  В {\it распределенных системах} каждый пользователь имеет собственную версию репозитория.
-  Изменение могут передаваться между репозиториями, но репозитории не обязательно должны быть
-  полностью синхронизированы.
+  \begin{block}{Распределенные системы}
+  Каждый пользователь имеет собственную версию репозитория.
+  Изменение могут передаваться между репозиториями.
+  \end{block}
 \end{frame}
 
 \begin{frame}
@@ -63,20 +67,22 @@
 
 \begin{frame}
   \frametitle{Системы контроля версий: примеры}
-  Централизованные системы:
-  \begin{itemize}
-    \item CVS
-    \item Subversion (SVN)
-    \item Visual SourceSafe, Vault и т.д.
-  \end{itemize}
+  \begin{block}{Централизованные системы}
+    \begin{itemize}
+      \item CVS
+      \item Subversion (SVN)
+      \item Visual SourceSafe, Vault и т.д.
+    \end{itemize}
+  \end{block}
 
-  Распределенные системы:
-  \begin{itemize}
-    \item Git,
-    \item Darcs,
-    \item Mercurial, Bazaar,
-    \item Bitkeeper и т.д.
-  \end{itemize}
+  \begin{block}{Распределенные системы}
+    \begin{itemize}
+      \item Git,
+      \item Darcs,
+      \item Mercurial, Bazaar,
+      \item Bitkeeper и т.д.
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \section{Git: модель репозитория}
