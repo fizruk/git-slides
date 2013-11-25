@@ -248,7 +248,23 @@
   \end{figure}
 \end{frame}
 
-\section{Git: основные операции}
+\section{Git: ветвление}
+
+\begin{frame}
+  \frametitle{Создание ветки}
+  Ветки в системах контроля версий позволяют отклониться от основной
+  линии разработки. В Git (в отличие от многих други систем) ветки
+  легковесны, что позволяет работать одновременно с тысячами веток
+  в больших проектах.
+  Команда \texttt{git branch} создаёт новую ветку, а \texttt{git checkout}
+  меняет текующую ветку:
+
+  \begin{figure}
+    \includegraphics[width=10cm]{images/git-branch.png}
+  \end{figure}
+\end{frame}
+
+\section{Git: удалённые репозитории}
 
 \begin{frame}
   \frametitle{Клонирование репозитория}
