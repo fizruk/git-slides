@@ -149,25 +149,25 @@
 
 \begin{frame}
   \frametitle{Основы}
-  Git хранит информацию о проекте и его истории в специальной структуре,
-  которая называется {\it репозиторий}. Помимо прочего, репозиторий включает
-  в себя набор {\it коммитов (commit objects)} и {\it ссылок на коммиты (heads)}.
-
   \begin{block}{Коммит}
     \begin{itemize}
-      \item набор файлов, соответствующий состоянию проекта на заданный момент времени;
+      \item набор файлов (снимок);
       \item ссылки на родительские коммиты;
-      \item уникальный SHA1-код (хеш), однозначно идентифицирующий коммит.
+      \item уникальный SHA1-код (хеш).
     \end{itemize}
   \end{block}
 
-  \begin{block}{Ссылки}
+  \begin{block}{Ссылка}
     \begin{itemize}
       \item просто ссылка на коммит;
-      \item ссылки имеют имена, по умолчанию создается ссылка {\it master};
+      \item имеют имена, по умолчанию создается ссылка {\it master};
       \item ссылка, активная на текущий момент, имеет синоним {\it HEAD}.
     \end{itemize}
   \end{block}
+
+  \begin{figure}
+     \includegraphics[width=5cm]{images/git-simple-repo.png}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
