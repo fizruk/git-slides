@@ -1,0 +1,33 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\usetheme{Boadilla}
+\usecolortheme{seahorse}
+\setbeamercovered{transparent}% Allow for shaded (transparent) covered items
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Содержание}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\title[]{Git: распределённая система контроля версий}
+\author{Н.\,Д.~Кудасов}
+\institute{МГУ им. Ломоносова}
+\date{Москва, 2013}
+
+\begin{frame}
+\addtocounter{framenumber}{-1}
+\maketitle
+\end{frame}
+
+\end{document}
+
