@@ -285,6 +285,24 @@
   \end{columns}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Слияние веток}
+  При слиянии веток Git находит наилучшего общего предка двух коммитов,
+  на которые ссылаются ветки. Если в ветке, в которую происходит слияние,
+  нет новых коммитов, то указатель просто передвигается. Иначе создаётся
+  новый коммит {\it с двумя предками}:
+
+  \begin{figure}
+    \includegraphics[width=10cm]<1>{images/git-simple-repo-merge.png}
+    \includegraphics[width=10cm]<2>{images/git-simple-repo-merge2.png}
+  \end{figure}
+
+  \begin{center}
+  \only<1>{Исходный репозиторий}
+  \only<2>{\texttt{git merge test}}
+  \end{center}
+\end{frame}
+
 \section{Git: удалённые репозитории}
 
 \begin{frame}
